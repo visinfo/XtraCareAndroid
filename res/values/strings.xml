@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XtraCare</string>
+    <string name="action_settings">Submit</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="options">
+        <item >Home</item>
+        <item >Service Booking</item>
+        <item >Feedback/Query</item>
+    </string-array>
+    
+     <string-array name="pickdrop_array">
+        <item>Pick and Drop</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+   
+    <string name="booking_model">Car Model</string>
+    <string name="booking_service">Type of service</string>
+    <string name="booking_name">Description</string>
+    <string name="booking_descLimit">Max 1000 characters...</string>
+    <string name="booking_mobile">Mobile Number</string>
+    <string name="booking_landline">Landline Number</string>
+    <string name="booking_email">Email ID</string>
+    <string name="booking_date">Appointment Date</string>
+    <string name="booking_time">Appointment Time</string>
+    
+    <string name="contact_query">Write to us</string>
+    <string name="contact_data">Anand Motor Version 1.0.0 \n hardcoded@gmail.com \t 98765432210 \n Preet vihar, New Delhi</string>
+     <string name="contact_button">Send</string>
+    
+    <string name="lr_fullname">First Name</string>
+    <string name="lr_email">Email</string>
+    <string name="lr_password">Last Name</string>
+    <string name="lr_register">Register</string>
+    <string name="lr_register_btn">Register</string>
+    <string name="lr_login">Login</string>
+    
+    <string name="lr_Login_btn">Login</string>
+    
+    
+    
+
+</resources>

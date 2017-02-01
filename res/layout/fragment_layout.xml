@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	     android:orientation="vertical" >
+	    <Spinner
+	        android:id="@+id/ms_carmodel"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:layout_margin="7dp" />
+	
+	    <Spinner
+	        android:id="@+id/ms_typeofservice"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:layout_margin="7dp" />
+	
+	    <Spinner
+	        android:id="@+id/ms_pickdrop"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:layout_margin="7dp" />
+		<TextView
+            android:id="@+id/label_booking_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:text="@string/booking_mobile"/>
+	   <EditText
+	        android:id="@+id/ms_mobile"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_marginStart="7dp"
+	        android:layout_marginEnd="7dp"
+	        android:gravity="start|center_vertical"
+	       
+	        android:inputType="phone"
+	        android:paddingLeft="13dp"
+	        android:paddingRight="13dp"
+	        android:textSize="15sp" />
+
+	    <TextView
+            android:id="@+id/label_booking_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:text="@string/booking_email"/>
+	    <EditText
+	        android:id="@+id/ms_emailid"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_margin="7dp"
+	        android:gravity="start|center_vertical"
+	        
+	        android:inputType="textWebEmailAddress"
+	        android:paddingLeft="13dp"
+	        android:paddingRight="13dp"
+	        android:textSize="15sp" />
+		<TextView
+            android:id="@+id/label_booking_descLimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:text="@string/booking_name"/>
+      <!--  <EditText
+           android:id="@+id/ms_desc"
+           android:layout_width="fill_parent"
+           android:layout_height="100dp"
+           android:layout_margin="7dp"
+           android:gravity="bottom"
+           android:hint="@string/booking_descLimit"
+           android:inputType="text"
+           android:scrollbars="vertical" /> -->
+       
+         
+   <EditText
+        android:id="@+id/ms_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:minLines="1"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:textSize="20sp" />
+
+	</LinearLayout>
+	
+    
+   

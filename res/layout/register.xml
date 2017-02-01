@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+ 
+        <!--  Header  Starts-->
+
+      <EditText
+          android:id="@+id/reg_firstname"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dip"
+          android:hint="@string/lr_fullname"
+          android:inputType="text"
+          android:singleLine="true" />
+
+          <EditText
+              android:id="@+id/reg_lastname"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:hint="@string/lr_password"
+              android:inputType="text"
+              android:singleLine="true" >
+          </EditText>
+
+          <EditText
+              android:id="@+id/reg_email"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:hint="@string/lr_email"
+              android:inputType="textWebEmailAddress"
+              android:singleLine="true" />
+
+  		<EditText
+  		    android:id="@+id/reg_mobile"
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="wrap_content"
+  		    android:layout_marginBottom="20dip"
+  		    android:layout_marginTop="5dip"
+  		    android:hint="@string/booking_mobile"
+  		    android:inputType="phone"
+  		    android:singleLine="true" />
+
+          <!-- Password Label -->
+
+          <!-- Register Button -->
+          <Button android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/lr_register_btn"/>
+          <!-- Link to Login Screen -->
+
+          
+         </LinearLayout>
+        
+       </RelativeLayout>
